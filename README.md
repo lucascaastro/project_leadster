@@ -1,3 +1,7 @@
+Projetos Fotos feito em reactJS, faz consulta na API https://www.pexels.com em photos
+Seu funcionamento consistem em consultar categorias de fotos, que foram inseridas no input da aplicação juntamento com o botão de carregar mais, para carregar mais 
+fotos daquela categoria buscada.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
