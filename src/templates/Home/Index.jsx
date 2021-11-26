@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-import './styles.css';
+import './styles.scss';
 
 import { Photos } from '../../components/Photos';
 import { loadPhotos } from '../../utils/load-photos';
