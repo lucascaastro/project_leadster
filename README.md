@@ -16,6 +16,9 @@ Acesse a aplicação, vá o campo input “Buscar fotos” digite a categoria de
 Modo de instalação:
 Instale nodeJS https://nodejs.org/en/download/, depois baixe o projeto desse repositório abra-o e execute o comando npm install ou yarn install depois do gerenciador de pacote instalado execute no mesmo caminho execute o comando npm start ou yarn start e utilize o projeto. 
 
+Ou acesse o link projeto: 
+https://61a4e05c9671700007f3711e--competent-mclean-cf764d.netlify.app/
+
 Linkedin:
 Lucas de Castro Santos
 
