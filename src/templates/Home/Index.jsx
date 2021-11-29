@@ -16,11 +16,6 @@ export const Home = () => {
   const [totalPhotos, setTotalPhotos] = useState(0);
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
-    setPage(0);
-    handleLoadPhotos(0, 'cool');
-  }, []);
-
   const noMorePhotos = (page * postsPerPage) >= totalPhotos;
 
   const clickSearch = async () => {
@@ -48,6 +43,7 @@ export const Home = () => {
     setLoading(false);
   };
 
+
   const handleInput = (event) => {
     if (event.keyCode === 13) {
       clickSearch();
@@ -59,6 +55,12 @@ export const Home = () => {
     setPage(nextPage);
     handleLoadPhotos(nextPage, inputValue);
   }
+
+  useEffect(() => {
+    setPage(0);
+    handleLoadPhotos(0, 'cool');
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   return (
     <>
